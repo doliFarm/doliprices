@@ -1,0 +1,5 @@
+
+AuthType Basic
+AuthName "Mandala Organic Growers. Restricted access."
+AuthUserFile /homez.646/mandalao/www/listini/.htpasswd
+Require valid-user

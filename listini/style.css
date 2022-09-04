@@ -1,0 +1,66 @@
+body {
+  padding:50px;  
+}
+
+textarea {
+  /* margin:0px 0px; this is redundant anyways since its specified below*/
+  padding-top:10px;
+  padding-bottom:25px; /* increased! */
+  /* height:16px; */
+  /* line-height:16px; */
+  width:100%; /* changed from 96 to 100% */
+  display:block;
+  /* margin:0px auto; not needed since i have width 100% now */
+}
+
+.header { 
+   grid-area: h; 
+   background-color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+   padding: 20px 0;
+   font-size: 11px;
+}
+
+.menu { 
+   grid-area: m; 
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 11px;
+}
+
+.priceslist { 
+  grid-area: x; 
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 11px;
+}
+
+.customerslist { 
+   grid-area: r; 
+   background-color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+   padding: 20px 0;
+   font-size: 11px;
+}
+
+.footer { 
+   grid-area: f; 
+   background-color: rgba(255, 255, 255, 0.8);
+   text-align: center;
+   padding: 20px 0;
+   font-size: 11px;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+	  'h h h h h h'
+	  'm x x x r r'
+	  'm f f f f f';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+

@@ -1,0 +1,90 @@
+# Copyright (C) 2022 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleDolipricesName'
+ModuleDolipricesName = Doliprices
+# Module description 'ModuleDolipricesDesc'
+ModuleDolipricesDesc = Doliprices description
+
+#
+# Admin page
+#
+DolipricesSetup = Doliprices setup
+Settings = Settings
+DolipricesSetupPage = Doliprices setup page
+DOLIPRICES_MYPARAM1 = My param 1
+DOLIPRICES_MYPARAM1Tooltip = My param 1 tooltip
+DOLIPRICES_MYPARAM2=My param 2
+DOLIPRICES_MYPARAM2Tooltip=My param 2 tooltip
+
+DOLIPRICES_CCMAIL=Indirizzo emai in copia
+DOLIPRICES_CCMAILTooltip=Le email spedite verranno inviate in copia a questo indirizzo
+DOLIPRICES_FROMMAIL=Indirizzo da cui parte la mail
+DOLIPRICES_FROMMAILTooltip=Indirizzo da cui parte la mail
+DOLIPRICES_OBJMAIL=Oggetto della mail
+DOLIPRICES_OBJMAILTooltip=Oggetto della mail (ex. [company] Listino prezzi settimana [week])
+DOLIPRICES_BODYMAIL=Corpo della mail
+DOLIPRICES_BODYMAILTooltip= Corpo della mail (ex Gentile [client], Ecco il listino prezzi della settimana [week]: [key] Cordiali saluti, Resp. Commerciale)
+DOLIPRICE_MSGCONFIRMORDER=Messaggio di conferma
+DOLIPRICE_MSGCONFIRMORDERTooltip=Messaggio di conferma (ex. Grazie per il vostro ordine. Si tratta di una email automatica. Non esitare a contattarci per tutto le informazioni necessarie.)
+DOLIPRICE_OBJCONFIRMORDER=Oggetto Messaggio di conferma
+DOLIPRICE_OBJCONFIRMORDERTooltip=Oggetto Messaggio di conferma (ex. Conferma ordine settimana [week] ** [client] **)
+DOLIPRICE_TOPMENU=Attiva Top Menu
+DOLIPRICE_TOPMENUTooltip=Se attivato viene visualizzato il menu sulla top bar
+
+#
+# About page
+#
+About = About
+DolipricesAbout = About Doliprices
+DolipricesAboutPage = Doliprices about page
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+
+#
+# Custom
+#
+DolipricesArea=Generatore Listino Prezzi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
